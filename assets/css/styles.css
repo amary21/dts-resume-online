@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&family=Inter:wght@400;600&display=swap');
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Inter', sans-serif */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.font-primary{
+    font-family: 'Heebo',sans-serif;
+}
+
+.font-secondary{
+    font-family: 'Inter', sans-serif;
+}
+
+.title h1{
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.description p{
+    margin-top: 20px;
+    margin-right: 115px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.img-profile{
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    background-image: url("../img/me.jpg");
+    background-position:center;
+
+}
+
+.header__data{
+    margin-top: 210px;
+    margin-bottom: 142px;
+}
+
+.section__info{
+    margin: 142px;
+}
+
+.bg-aqua{
+    background-color: #EDF7FA;
+}
+
+/* .section__personal{
+    justify-content: space-around;
+    text-align: left;
+} */
+
+.grid{
+    display:grid;
+    grid-template-columns: 50% auto;
+}
+
+.section__personal{
+    padding: 0 148px;
+}
+
+.section__personal h3{
+    color: #136223;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.data__contact{
+    margin-bottom: 20px;
+}
+
+.data__contact span{
+    font-size: 16px;
+    line-height:20px;
+    letter-spacing: 0.05em;
+}
+
+.data__contact i {
+    margin-right: 10px;
+    width:17px;
+    height:17px;
+}
+
